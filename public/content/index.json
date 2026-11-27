@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "books": [
+    {
+      "id": "science-8",
+      "title": "علوم تجربی",
+      "grade": 8,
+      "gradeLabel": "پایه‌ی هشتم",
+      "level": "دوره‌ی اول متوسطه",
+      "subject": "science",
+      "chapterCount": 15,
+      "totalPages": 152
+    }
+  ]
+}

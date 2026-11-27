@@ -1,0 +1,107 @@
+{
+  "schemaVersion": 1,
+  "id": "science-8",
+  "title": "علوم تجربی",
+  "grade": 8,
+  "gradeLabel": "پایه‌ی هشتم",
+  "level": "دوره‌ی اول متوسطه",
+  "subject": "science",
+  "pdf": "book.txt",
+  "totalPages": 152,
+  "direction": "rtl",
+  "chapters": [
+    {
+      "number": 1,
+      "title": "مخلوط و جداسازی مواد",
+      "startPage": 7,
+      "endPage": 14
+    },
+    {
+      "number": 2,
+      "title": "تغییرهای شیمیایی در خدمت زندگی",
+      "startPage": 15,
+      "endPage": 26
+    },
+    {
+      "number": 3,
+      "title": "از درون اتم چه خبر",
+      "startPage": 27,
+      "endPage": 33,
+      "lesson": "lesson-3/lesson.json"
+    },
+    {
+      "number": 4,
+      "title": "تنظیم عصبی",
+      "startPage": 34,
+      "endPage": 40,
+      "lesson": "lesson-4/lesson.json"
+    },
+    {
+      "number": 5,
+      "title": "حس و حرکت",
+      "startPage": 41,
+      "endPage": 52
+    },
+    {
+      "number": 6,
+      "title": "تنظیم هورمونی",
+      "startPage": 53,
+      "endPage": 60
+    },
+    {
+      "number": 7,
+      "title": "الفبای زیست‌فناوری",
+      "startPage": 61,
+      "endPage": 70
+    },
+    {
+      "number": 8,
+      "title": "تولید مثل در جانداران",
+      "startPage": 71,
+      "endPage": 81
+    },
+    {
+      "number": 9,
+      "title": "الکتریسیته",
+      "startPage": 82,
+      "endPage": 94
+    },
+    {
+      "number": 10,
+      "title": "مغناطیس",
+      "startPage": 95,
+      "endPage": 102
+    },
+    {
+      "number": 11,
+      "title": "کانی‌ها",
+      "startPage": 103,
+      "endPage": 109
+    },
+    {
+      "number": 12,
+      "title": "سنگ‌ها",
+      "startPage": 110,
+      "endPage": 119
+    },
+    {
+      "number": 13,
+      "title": "هوازدگی",
+      "startPage": 120,
+      "endPage": 127
+    },
+    {
+      "number": 14,
+      "title": "نور و ویژگی‌های آن",
+      "startPage": 128,
+      "endPage": 141
+    },
+    {
+      "number": 15,
+      "title": "شکست نور",
+      "startPage": 142,
+      "endPage": 152
+    }
+  ],
+  "printedOffset": 6
+}

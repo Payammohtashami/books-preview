@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import "@fontsource-variable/vazirmatn";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-sans: "Vazirmatn Variable", system-ui, sans-serif;
+  --color-brand-50: #f0fdfa;
+  --color-brand-100: #ccfbf1;
+  --color-brand-500: #14b8a6;
+  --color-brand-600: #0d9488;
+  --color-brand-700: #0f766e;
+  --color-brand-900: #134e4a;
+}
+
+html {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  line-height: 1.9;
+  -webkit-tap-highlight-color: transparent;
+  color-scheme: light;
+}
+html.dark { color-scheme: dark; }
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: #f8fafc;
+  color: #0f172a;
+  padding-inline: env(safe-area-inset-left) env(safe-area-inset-right);
+}
+html.dark body { background: #0b1220; color: #e2e8f0; }
+
+/* اعداد و متن لاتین داخل جمله‌ی فارسی */
+.ltr { direction: ltr; unicode-bidi: isolate; text-align: start; }
+
+button, a { touch-action: manipulation; }
+:focus-visible { outline: 3px solid var(--color-brand-500); outline-offset: 2px; border-radius: 6px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
